@@ -9,6 +9,15 @@
     overflow: hidden;
 }
 
+.row-gap {
+    row-gap: 1.875rem;
+}
+
+.grid-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 .blog__thumb {
     position: relative;
     overflow: hidden;
