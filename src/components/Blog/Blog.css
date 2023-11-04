@@ -3,6 +3,19 @@
     column-gap: 1.875rem;
 }
 
+.blog__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.view__all {
+    font-size: var(--h2-font-size);
+    margin-right: 0.875rem;
+    font-weight: var(--font-bold);
+    margin-top: 0.5rem;
+    position: relative;
+}
+
 .blog__card {
     box-shadow: var(--shadow);
     border-radius: var(--border-radius);
@@ -21,9 +34,17 @@
 .blog__thumb {
     position: relative;
     overflow: hidden;
+    height: 215px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .blog__img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
     transform: scale(1);
     transition: .3s;
 }

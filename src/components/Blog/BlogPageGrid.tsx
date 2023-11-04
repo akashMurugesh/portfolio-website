@@ -16,8 +16,8 @@ const BlogPageGrid: React.FC<BlogResultsProps> = ({ results }) => {
         <div className="blog__container grid row-gap">
         {results.map(({ id, category, thumbnail, title, date, author, url }) => {
             return (
-                <a href={url}>
-                <div className="blog__card" key={id}>
+                <a href={url}  key={id}>
+                <div className="blog__card">
                     <div className="blog__thumb">
                         <span className="blog__category">{category}</span>
                         <img src={thumbnail} alt="" className="blog__img" />

@@ -3,12 +3,12 @@ import Image1 from "../../assets/blog-1.svg";
 const blogCardData = [
     {
         id: 1,
-        category: "Tech",
+        category: "Android",
         thumbnail: Image1,
-        title: "5 Best App Development Tools for your Projects",
-        date: "24 March, 2023",
+        title: "Kotlin MultiPlatform Mobile (KMM) - Part 1",
+        date: "04 November, 2023",
         author: "Akash Murugesh",
-        url: "https://www.medium.com/",
+        url: "https://medium.com/@akashmurugeshk/kotlin-multiplatform-mobile-kmm-918a30bf30ba",
     },
     {
         id: 2,

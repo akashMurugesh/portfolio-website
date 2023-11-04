@@ -12,14 +12,14 @@ const data = [
         "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commondo lingula eget.",
     },
     {
-        id: 1,
+        id: 2,
         image: Image2,
         title: "Android Development",
         description:
         "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commondo lingula eget.",
     },
     {
-        id: 1,
+        id: 3,
         image: Image3,
         title: "Illustration",  
         description:

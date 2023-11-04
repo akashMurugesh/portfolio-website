@@ -1,9 +1,13 @@
 import BlogPageGrid from "../components/Blog/BlogPageGrid";
 import Searchbar from "../components/Searchbar/Searchbar";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import blogCardData from "../components/Blog/BlogData";
 
 const BlogPage = () => {
+  useEffect(() => {
+    window.scrollTo(0,0);
+  },[]);
+
   const [results, setResults] =
     useState<
       {
